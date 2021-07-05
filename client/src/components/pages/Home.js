@@ -1,6 +1,13 @@
+import Contacts from "../contacts/Contacts";
+
 const Home = () => {
-  return <div>
-    <h1>Home</h1>
+  return <div className="grid-2">
+    <div>
+      {/* Contact form */}
+    </div>
+    <div>
+      <Contacts />
+    </div>
   </div>
 }
 
